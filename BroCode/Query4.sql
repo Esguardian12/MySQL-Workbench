@@ -1,0 +1,8 @@
+DELETE FROM employees;
+SELECT * FROM employees;
+
+SET AUTOCOMMIT = OFF;
+
+COMMIT;
+
+ROLLBACK;
